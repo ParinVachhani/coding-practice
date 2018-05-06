@@ -1,5 +1,5 @@
 //Problem link - https://www.hackerrank.com/challenges/cpp-hello-world/problem
-//Code author - https://github.com/parinvachhani
+//Code author - Parin Vachhani - https://github.com/parinvachhani
 
 #include <iostream>
 using namespace std;
