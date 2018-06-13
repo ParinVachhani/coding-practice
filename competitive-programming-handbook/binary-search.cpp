@@ -12,12 +12,11 @@ int main(){
 		else a = k+1;
 	}
 	// Make exponentially decreasing jumps to reach the desired number
-	int A[9] = {1,2,3,4,5,6,7,8,9};
 	int k = 0;
 	for(int b = n/2; b >= 1; b /= 2){
-		while(((k+b) < n) && (A[k+b] <= x)) k += b;
+		while(((k+b) < n) && (array[k+b] <= x)) k += b;
 	}
-	if (A[k] == x){
+	if (array[k] == x){
 		cout << x << " found at index " << k << "\n";
 	}
 	// Using inbuilt C++ functions
